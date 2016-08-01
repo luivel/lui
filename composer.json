@@ -1,0 +1,18 @@
+{
+  "name": "krunal/lui",
+  "description": "php artisan gui",
+  "license": "mit",
+  "authors": [
+    {
+      "name": "kunal dodiya",
+      "email": "kunal.dodiya1@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Luivel\\Lui\\": "src"
+    }
+  },
+  "minimum-stability": "stable",
+  "require": {}
+}
