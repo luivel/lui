@@ -1,2 +1,0 @@
-# lui
-Laravel User Interface
