@@ -39,4 +39,11 @@ class LuiController extends Controller
 
         return back();
     }
+
+    public function addRoutes(Request $request)
+    {
+        Demo::create($request->all());
+
+        return back();
+    }
 }

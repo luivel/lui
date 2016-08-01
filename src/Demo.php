@@ -4,5 +4,5 @@ class Demo extends BaseModel
 {
     protected $table = 'demo';
 
-    protected $fillable = ['name'];
+    protected $fillable = ['name', 'type', 'group', 'url', 'middleware', 'controller', 'action', 'as'];
 }

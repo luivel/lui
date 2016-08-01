@@ -1,6 +1,5 @@
 <?php
 
-
 Route::group(['namespace' => 'Luivel\Lui\Http\Controllers', 'middleware' => 'web', 'prefix' => env('LUI_URL')], function ($router) {
     $router->get('/', [
         'uses' => 'LuiController@index',
@@ -15,5 +14,10 @@ Route::group(['namespace' => 'Luivel\Lui\Http\Controllers', 'middleware' => 'web
     $router->post('/login', [
         'uses' => 'LuiController@loginProcess',
         'as' => 'lui-login-post'
+    ]);
+
+    $router->post('/routes/add', [
+        'uses' => 'LuiController@addRoutes',
+        'as' => 'lui-add-routes'
     ]);
 });
