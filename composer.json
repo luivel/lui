@@ -13,6 +13,6 @@
       "Luivel\\Lui\\": "src"
     }
   },
-  "minimum-stability": "stable",
+  "minimum-stability": "1.0.0",
   "require": {}
 }
